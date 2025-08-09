@@ -19,6 +19,8 @@ This HUD may work on the macOS version of TF2, but it is not supported.
 HUD originally created by [Eniere](https://github.com/Eniere).  
 Currently maintained by [Tiagoquix](https://github.com/Tiagoquix).
 
+Special thanks to CriticalFlaw and the contributors of the [tf2hud-fixes](https://github.com/CriticalFlaw/tf2hud-fixes) repository. Some of the changes integrated into IDHUD were based on changes there.
+
 # Features
 
 - No gray bars when spectating
@@ -27,6 +29,7 @@ Currently maintained by [Tiagoquix](https://github.com/Tiagoquix).
 - Better target ID readability (for both players and buildings)
 - Keyboard shortcuts in the equipment menu, backpack view and loadout screen
 - High-quality item previews in the backpack view, loadout screen, Mann Co. store and more (no additional files needed; done via HUD file tweaks)
+- Restored passive attributes on the loadout screen
 - Better spectator tournament support (`cl_use_tournament_specgui 1`)
 - No duplicate crosshair when coaching
 - Minor scoreboard improvements
