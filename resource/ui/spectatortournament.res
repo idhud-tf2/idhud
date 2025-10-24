@@ -266,6 +266,11 @@
 		"autoResize"	"0"
 		"tabPosition"	"0"
 		"pinCorner"		"0"
+
+		if_mvm
+		{
+			"tall"		"33"
+		}
 	}
 	"BottomBar"
 	{
