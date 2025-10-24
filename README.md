@@ -23,7 +23,7 @@ Special thanks to CriticalFlaw and the contributors of the [tf2hud-fixes](https:
 
 # Features
 
-- No gray bars when spectating
+- No gray bars when spectating (except the top bar in MvM to work around a bug)
 - Larger combat text numbers (damage, healing, metal spent etc.)
 - Last damage and healing done next to health cross
 - Better target ID readability (for both players and buildings)
