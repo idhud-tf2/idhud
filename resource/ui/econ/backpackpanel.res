@@ -401,6 +401,120 @@
 		}
 	}
 
+	//"PrevPageButton"
+	//{
+	//	"ControlName"	"CExButton"
+	//	"fieldName"		"PrevPageButton"
+	//	"xpos"			"c195"
+	//	"ypos"			"290"
+	//	"zpos"			"1"
+	//	"wide"			"20"
+	//	"tall"			"20"
+	//	"autoResize"	"0"
+	//	"pinCorner"		"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"tabPosition"	"0"
+	//	"labelText"		"<"
+	//	"font"			"HudFontSmallBold"
+	//	"textAlignment"	"center"
+	//	"dulltext"		"0"
+	//	"brighttext"	"0"
+	//	"Command"		"prevpage"
+	//	"sound_depressed"	"UI/buttonclick.wav"
+	//	"sound_released"	"UI/buttonclickrelease.wav"
+	//}
+	//
+	//"CurPageLabel"
+	//{
+	//	"ControlName"	"CExLabel"
+	//	"fieldName"		"CurPageLabel"
+	//	"font"			"HudFontSmallBold"
+	//	"labelText"		"%backpackpage%"
+	//	"textAlignment"	"center"
+	//	"xpos"			"c220"
+	//	"ypos"			"290"
+	//	"zpos"			"1"
+	//	"wide"			"40"
+	//	"tall"			"20"
+	//	"autoResize"	"1"
+	//	"pinCorner"		"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"fgcolor_override" "200 80 60 255"
+	//}
+	//
+	//"NextPageButton"
+	//{
+	//	"ControlName"	"CExButton"
+	//	"fieldName"		"NextPageButton"
+	//	"xpos"			"c265"
+	//	"ypos"			"290"
+	//	"zpos"			"1"
+	//	"wide"			"20"
+	//	"tall"			"20"
+	//	"autoResize"	"0"
+	//	"pinCorner"		"0"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"tabPosition"	"0"
+	//	"labelText"		">"
+	//	"font"			"HudFontSmallBold"
+	//	"textAlignment"	"center"
+	//	"dulltext"		"0"
+	//	"brighttext"	"0"
+	//	"Command"		"nextpage"
+	//	"sound_depressed"	"UI/buttonclick.wav"
+	//	"sound_released"	"UI/buttonclickrelease.wav"
+	//}
+
+	"DragToNextPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DragToNextPageButton"
+		"xpos"			"c290"
+		"ypos"			"154"
+		"zpos"			"1"
+		"wide"			"25"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		">"
+		"font"			"HudFontMediumBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		""
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"DragToPrevPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DragToPrevPageButton"
+		"xpos"			"c-315"
+		"ypos"			"154"
+		"zpos"			"1"
+		"wide"			"25"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"<"
+		"font"			"HudFontMediumBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		""
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
 	"CancelApplyToolButton"
 	{
 		"ControlName"	"CExButton"
@@ -1468,7 +1582,7 @@
 	}
 
 /////////////////////////////////////
-// IDHUD - BACKPACK SHORTCUTS
+// IDHUD - BACKPACK SHORTCUTS (A & D)
 /////////////////////////////////////
 
 	"PrevPageButton"
@@ -1495,58 +1609,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
-	"DragToPrevPageButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"DragToPrevPageButton"
-		"xpos"			"c-280"
-		"ypos"			"37"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"&A"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c-214"
-		"ypos"			"37"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"&D"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"nextpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"DragToNextPageButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"DragToNextPageButton"
 		"xpos"			"c-214"
 		"ypos"			"37"
 		"zpos"			"1"
