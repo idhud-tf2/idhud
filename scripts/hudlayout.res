@@ -363,6 +363,7 @@
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"0"
 		"ypos"				"r100"
+		"zpos"				"1"		// Fixes cash count being hidden by the HUD playermodel
 		"wide"				"100"
 		"tall"				"100"
 		"xpos_minmode"		"65"
