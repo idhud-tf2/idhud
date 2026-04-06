@@ -320,10 +320,15 @@
 
 		if_mvm
 		{
+			// Default if_mvm values from original .res file
 			"xpos"			"c-190"
-			"ypos"			"100"
+			"ypos"			"1"
 			"wide"			"380"
 			"textAlignment"		"center"
+
+			// IDHUD has-to-match values for MvM
+			"ypos_minmode"	"1"
+			"wide_minmode"	"380"
 		}
 	}
 	"BuyBackLabel"
@@ -331,7 +336,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"116"
+		"ypos"			"16"
 		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"
