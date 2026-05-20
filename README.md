@@ -5,7 +5,8 @@ This is not a custom HUD in its usual meaning; instead, the focus is to add some
 See the [features](#features) section for more information.  
 See the [FAQ](#frequently-asked-questions-faq) for some possible questions you may have.
 
-Page on comfig.app (including screenshots gallery): https://comfig.app/huds/page/improved-default-hud/
+Page on comfig.app's HUD database (including screenshots gallery): https://comfig.app/huds/page/improved-default-hud/
+Page on GameBanana: https://gamebanana.com/mods/678561
 
 Discussions:
 - https://teamfortress.tv/thread/16751/improved-default-hud
@@ -32,8 +33,7 @@ Special thanks to CriticalFlaw and the contributors of the [tf2hud-fixes](https:
 - Restored passive attributes text on the loadout screen
 - Better spectator tournament support (`cl_use_tournament_specgui 1`)
 - No duplicate crosshair when coaching
-- Minor scoreboard improvements
-- Minor adjustments to 3D class portraits angles
+- Scoreboard improvements
 - More death notices on the screen at once
 - Linux support
 
