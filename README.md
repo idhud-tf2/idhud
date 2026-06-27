@@ -87,3 +87,7 @@ Also, they usually tend to work better with custom crosshairs, which we don't su
 
 Because it only works in the main menu or in a local server, due to the fact that it uses the `r_skin` command, which is protected by `sv_cheats`.  
 Even when using the `r_skin` command, not all things work as expected — Australium weapons have graphical corruptions, and Warpaints don't change their team colors accordingly.
+
+---------------------
+
+If you find this HUD cool, consider [supporting me](https://steamcommunity.com/tradeoffer/new/?partner=387320466&token=LKwcxEl5). :)
