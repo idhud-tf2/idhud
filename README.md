@@ -5,17 +5,17 @@ This is not a custom HUD in its usual meaning; instead, the focus is to add some
 See the [features](#features) section for more information.  
 See the [FAQ](#frequently-asked-questions-faq) for some possible questions you may have.
 
-Page on comfig.app's HUD database (including screenshots gallery): https://comfig.app/huds/page/improved-default-hud/
-Page on GameBanana: https://gamebanana.com/mods/678561
+#### Screenshots gallery
+- https://comfig.app/huds/page/improved-default-hud/
+- https://gamebanana.com/mods/678561
+- https://tf2huds.dev/hud/Improved-Default-HUD
 
-Discussions:
-- https://teamfortress.tv/thread/16751/improved-default-hud
-- https://etf2l.org/forum/customise/topic-28385
+#### Discussions
+- https://www.teamfortress.tv/16751/improved-default-hud
+- https://etf2l.org/forum/customise/topic-28385/
 
 On Windows, use [Notepad++](https://notepad-plus-plus.org) to preview and edit files.  
 On Linux, Kate from KDE is recommended. Download it from your distribution's repository.
-
-This HUD may work on the macOS version of TF2, but it is not supported.
 
 HUD originally created by [Eniere](https://github.com/Eniere).  
 Currently maintained by [Tiagoquix](https://github.com/Tiagoquix).
