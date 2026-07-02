@@ -18,17 +18,17 @@
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
-		
+
 		"player_ypos"		"200"
 		"player_xoffset"	"10"
-		
+
 		"playerlist_panel_kvs"
 		{
 			"wide"				"240"
 			"tall"				"22"
 			"fgcolor_local"		"200 80 60 255"
 			"fgcolor_other"		"235 226 202 255"
-		
+
 			"name_label"
 			{
 				"ControlName"	"CExLabel"
@@ -64,7 +64,7 @@
 			}
 		}
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -83,7 +83,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -101,7 +101,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"TopLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -116,10 +116,10 @@
 		"image"			"loadout_dotted_line"
 		"tileImage"		"1"
 		"tileVertically" "0"
-	}				
-	
+	}
+
 	"item_panel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"item_panel"
 		"xpos"			"c-100"
@@ -131,17 +131,17 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"model_ypos"	"0"
 		"model_tall"	"125"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
