@@ -21,12 +21,12 @@
 
 		"encoded_text"	"#QuestLog_Encoded"
 		"expire_text"	"#TF_QuestExpirationWarning"
-		"TrackerPanelResFile"	"resource/UI/quests/QuestItemTrackerPanel_QuestLog_Base.res"	
+		"TrackerPanelResFile"	"resource/UI/quests/QuestItemTrackerPanel_QuestLog_Base.res"
 		"ItemAttributeResFile"	"resource/UI/quests/QuestObjectivePanel_QuestLog_Base.res"
 		"scrolling_container_height"	"240"
 
 		// Sound effects
-		"turn_in_sound"				"ui/quest_turn_in_decode.wav" 
+		"turn_in_sound"				"ui/quest_turn_in_decode.wav"
 		"turn_in_success_sound"		"ui/quest_turn_in_accepted.wav"
 		"decode_sound"				"ui/quest_decode.wav"
 		"collapse_sound"			"ui/quest_folder_close.wav"
@@ -52,7 +52,7 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"proportionaltoparent"	"1"
-			
+
 			"model_xpos"	"0"
 			"model_ypos"	"0"
 			"model_wide"	"65"
@@ -60,13 +60,13 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"model_only"	"1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
-			
+
 			"itemmodelpanel"
 			{
 				"inventory_image_type"	"1"
@@ -408,8 +408,8 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"image"			"contracts/accepted"
-					"scaleImage"	"1"	
-					"proportionaltoparent"	"1"	
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
 
 					if_brazilian
 					{
@@ -521,8 +521,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"contracts/photo_static"
-					"scaleImage"	"1"	
-					"proportionaltoparent"	"1"	
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
 				}
 
 				"CharacterBackdropImage"
@@ -537,8 +537,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"quest_pauling"
-					"scaleImage"	"1"	
-					"proportionaltoparent"	"1"	
+					"scaleImage"	"1"
+					"proportionaltoparent"	"1"
 				}
 
 				"FindServerButton"
@@ -629,7 +629,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"image"			"contracts/contracts_papers1_vacation_items"
-						"scaleImage"	"1"	
+						"scaleImage"	"1"
 						"proportionaltoparent"	"1"
 					}
 
@@ -714,7 +714,7 @@
 					}
 
 					"Loaner1ItemModelPanel"
-					{		
+					{
 						"ControlName"	"CItemModelPanel"
 						"fieldName"		"Loaner1ItemModelPanel"
 						"xpos"			"p.1"
@@ -726,7 +726,7 @@
 						"PaintBackgroundType"	"0"
 						"paintborder"	"1"
 						"proportionaltoparent"	"1"
-		
+
 						"model_xpos"	"4"
 						"model_ypos"	"11"
 						"model_wide"	"45"
@@ -735,9 +735,9 @@
 						"attrib_only"	"0"
 						"model_only"	"1"
 						"paint_icon_hide"	"0"
-		
+
 						"text_ypos"		"10"
-		
+
 						"itemmodelpanel"
 						{
 							"inventory_image_type"	"1"
@@ -747,7 +747,7 @@
 					}
 
 					"Loaner2ItemModelPanel"
-					{		
+					{
 						"ControlName"	"CItemModelPanel"
 						"fieldName"		"Loaner2ItemModelPanel"
 						"xpos"			"p.51"
@@ -759,7 +759,7 @@
 						"PaintBackgroundType"	"0"
 						"paintborder"	"1"
 						"proportionaltoparent"	"1"
-		
+
 						"model_xpos"	"4"
 						"model_ypos"	"11"
 						"model_wide"	"45"
@@ -768,9 +768,9 @@
 						"attrib_only"	"0"
 						"model_only"	"1"
 						"paint_icon_hide"	"0"
-		
+
 						"text_ypos"		"10"
-		
+
 						"itemmodelpanel"
 						{
 							"inventory_image_type"	"1"
@@ -813,14 +813,14 @@
 						{
 							"fgcolor_override"	"TanDark"
 						}
-		
+
 						"UpButton"
 						{
 							"ControlName"	"Button"
 							"FieldName"		"UpButton"
 							"visible"		"0"
 						}
-		
+
 						"DownButton"
 						{
 							"ControlName"	"Button"
@@ -970,7 +970,7 @@
 					"scaleImage"	"1"
 					"image"			"contracts\contracts_folder1_front"
 					"proportionaltoparent"	"1"
-				
+
 					"mouseinputenabled"	"0"
 					"keyboardinputenabled" "0"
 				}
@@ -1023,7 +1023,7 @@
 							"scaleImage"	"1"
 							"image"			"contracts/sticky"
 							"proportionaltoparent"	"1"
-				
+
 							"mouseinputenabled"	"0"
 							"keyboardinputenabled" "0"
 						}
@@ -1085,7 +1085,7 @@
 							"scaleImage"	"1"
 							"image"			"contracts/sticky_turn_in"
 							"proportionaltoparent"	"1"
-				
+
 							"mouseinputenabled"	"0"
 							"keyboardinputenabled" "0"
 						}
@@ -1151,7 +1151,7 @@
 							"scaleImage"	"1"
 							"image"			"contracts/sticky_inactive"
 							"proportionaltoparent"	"1"
-				
+
 							"mouseinputenabled"	"0"
 							"keyboardinputenabled" "0"
 						}
@@ -1184,5 +1184,5 @@
 				}
 			}
 		}
-	}	
+	}
 }

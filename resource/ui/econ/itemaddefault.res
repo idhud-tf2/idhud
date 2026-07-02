@@ -80,14 +80,14 @@
 				"fgcolor_override"	"TanDark"
 				"mouseinputenabled"	"1"
 			}
-		
+
 			"UpButton"
 			{
 				"ControlName"	"Button"
 				"FieldName"		"UpButton"
 				"visible"		"0"
 			}
-		
+
 			"DownButton"
 			{
 				"ControlName"	"Button"
@@ -131,7 +131,7 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"proportionaltoparent"	"1"
-			
+
 		"model_xpos"	"0"
 		"model_ypos"	"0"
 		"model_wide"	"0"
@@ -163,7 +163,7 @@
 		"font"			"AdFont_PurchaseButton"
 		"textinsetx"		"0"
 		"textAlignment"	"center"
-		
+
 		"proportionaltoparent"	"1"
 		"paintbackground"	"1"
 		"command"	"purchase"
@@ -195,7 +195,7 @@
 		"font"			"AdFont_PurchaseButton"
 		"textinsetx"		"0"
 		"textAlignment"	"center"
-		
+
 		"proportionaltoparent"	"1"
 		"paintbackground"	"1"
 		"command"	"market"

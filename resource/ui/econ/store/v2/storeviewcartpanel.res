@@ -18,7 +18,7 @@
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
-		
+
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
@@ -26,17 +26,17 @@
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
-		
+
 		"item_entry_kv"
 		{
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"580"
 			"tall"			"60"
-		
+
 			"itempanel"
 			{
 				"ControlName"	"CItemModelPanel"
@@ -50,20 +50,20 @@
 				"noitem_textcolor"		"117 107 94 255"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"0"
-				
+
 				"model_xpos"	"3"
 				"model_ypos"	"3"
 				"model_wide"	"80"
 				"model_tall"	"53"
-				
+
 				"text_xpos"		"110"
 				"text_ypos"		"24"
 				"text_wide"		"250"
 				"text_center"	"0"
 				"text_forcesize" "1"
-				
+
 				"name_only"		"1"
-				
+
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" "0"
@@ -71,7 +71,7 @@
 					"inventory_image_type"	"1"
 				}
 			}
-			
+
 			"quantitylabel"
 			{
 				"ControlName"	"Label"
@@ -89,7 +89,7 @@
 				"enabled"		"1"
 				"labelText"		"%quantity%"
 			}
-			
+
 			"SeparatorLine"
 			{
 				"ControlName"	"ImagePanel"
@@ -103,8 +103,8 @@
 				"enabled"		"1"
 				"image"			"loadout_solid_line"
 				"tileImage"		"1"
-			}			
-			
+			}
+
 			"RemoveButton"
 			{
 				"ControlName"	"CExButton"
@@ -128,8 +128,8 @@
 				"Command"		"remove"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
-			
+			}
+
 			"PriceLabel"
 			{
 				"ControlName"	"Label"
@@ -169,7 +169,7 @@
 			}
 		}
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -183,7 +183,7 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -197,7 +197,7 @@
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -211,8 +211,8 @@
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
-	
+	}
+
 	"ClientArea"
 	{
 		"ControlName"	"EditablePanel"
@@ -222,7 +222,7 @@
 		"wide"			"f0"
 		"tall"			"368"
 		"bgcolor_override"				"46 43 42 255"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -236,8 +236,8 @@
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}				
-		
+		}
+
 		"CartItemsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -255,7 +255,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		
+
 		"SeparatorLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -269,8 +269,8 @@
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"tileImage"		"1"
-		}				
-		
+		}
+
 		"EmptyCartLabel"
 		{
 			"ControlName"	"Label"
@@ -288,7 +288,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 		}
-		
+
 		"ItemListContainerScroller"
 		{
 			"ControlName"	"EditablePanel"
@@ -302,19 +302,19 @@
 			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
 			"bgcolor_override"	"51 47 46 255"
 			"autohide_buttons" "1"
-			
+
 			"Scrollbar"
 			{
 				"xpos"			"586"
 				"wide"			"11"
 				"tall"			"240"
 				"zpos"			"1000"
-				
+
 				"Slider"
 				{
 					"PaintBackgroundType"	"2"
 				}
-				
+
 				"nobuttons"		"1"
 				"UpButton"
 				{
@@ -324,7 +324,7 @@
 					"tall"			"0"
 					"wide"			"0"
 				}
-				
+
 				"DownButton"
 				{
 					"ControlName"	"Button"
@@ -334,7 +334,7 @@
 					"wide"			"0"
 				}
 			}
-			
+
 			"ItemListContainer"
 			{
 				"ControlName"	"EditablePanel"
@@ -346,7 +346,7 @@
 				"tall"			"240"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"	"200 187 161 0"
-				
+
 				"FeaturedItemSymbol"
 				{
 					"ControlName"	"ImagePanel"
@@ -361,15 +361,15 @@
 					"image"			"store_special"
 					"scaleImage"	"1"
 				}
-				
+
 				"PurchaseFooter"
 				{
 					"ControlName"	"EditablePanel"
 					"fieldName"		"PurchaseFooter"
 					"wide"			"580"
 					"tall"			"110"
-					"bgcolor_override"	"0 0 0 0"	
-					
+					"bgcolor_override"	"0 0 0 0"
+
 					"EstimatedTotalLabel"
 					{
 						"ControlName"	"CExLabel"
@@ -423,7 +423,7 @@
 						"enabled"		"1"
 						"fgcolor_override" "130 120 104 255"
 					}
-					
+
 					"TotalPriceLabel"
 					{
 						"ControlName"	"Label"
@@ -442,12 +442,12 @@
 						"labelText"		"%totalprice%"
 						"fgcolor_override" "130 120 104 255"
 					}
-					
+
 				}
 			}
 		}
-	}	
-	
+	}
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -471,8 +471,8 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"CheckoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -497,5 +497,5 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 }

@@ -10,7 +10,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumBold"
 	}
-	
+
 	"AccountBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -23,14 +23,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
@@ -45,11 +45,11 @@
 		"tall_lodef"	"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_metal"
 		"iconColor"		"ProgressOffWhite"
 	}
-	
+
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"

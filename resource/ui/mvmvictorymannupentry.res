@@ -29,7 +29,7 @@
 			"paintborder"	"0"
 			"AutoResize" "0"
 			"skip_autoresize" "1"
-			
+
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"50"
@@ -37,16 +37,16 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-			
+
 			"use_item_sounds"	"1"
 		}
 
@@ -76,8 +76,8 @@
 			"proportionalToParent"	"1"
 
 			"pin_to_sibling"               "PanelListPanel"
-			"pin_corner_to_sibling"        "4"          
-			"pin_to_sibling_corner"        "6"  
+			"pin_corner_to_sibling"        "4"
+			"pin_to_sibling_corner"        "6"
 		}
 
 		"SquadSurplusTicketBackground"
@@ -93,8 +93,8 @@
 			"proportionalToParent"	"1"
 
 			"pin_to_sibling"               "PanelListPanel"
-			"pin_corner_to_sibling"        "0"          
-			"pin_to_sibling_corner"        "2"   
+			"pin_corner_to_sibling"        "0"
+			"pin_to_sibling_corner"        "2"
 
 			"SquadSurplus"
 			{
@@ -127,8 +127,8 @@
 			"proportionalToParent"	"1"
 
 			"pin_to_sibling"               "PanelListPanel"
-			"pin_corner_to_sibling"        "0"          
-			"pin_to_sibling_corner"        "2"  
+			"pin_corner_to_sibling"        "0"
+			"pin_to_sibling_corner"        "2"
 
 			"CompletedCheckOn"
 			{
@@ -267,7 +267,7 @@
 			}
 		}
 	}
-	
+
 	"BehindItemParticlePanel"
 	{
 		"ControlName"	"CTFParticlePanel"
@@ -279,7 +279,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 
-		"paintbackground"	"0"	
+		"paintbackground"	"0"
 	}
 
 	"TourProgress"
@@ -295,8 +295,8 @@
 		"visible"		"1"
 
 		"pin_to_sibling"               "playermodelpanel"
-		"pin_corner_to_sibling"        "0"          
-		"pin_to_sibling_corner"        "2" 
+		"pin_corner_to_sibling"        "0"
+		"pin_to_sibling_corner"        "2"
 
 		"LevelLabel"
 		{
@@ -389,7 +389,7 @@
 			}
 		}
 	}
-	
+
 	"MissingVoucher"
 	{
 		"ControlName"	"CExLabel"
@@ -418,8 +418,8 @@
 		"proportionalToParent"	"1"
 
 		"pin_to_sibling"               "PanelListPanel"
-		"pin_corner_to_sibling"        "2"          
-		"pin_to_sibling_corner"        "0"    
+		"pin_corner_to_sibling"        "2"
+		"pin_to_sibling_corner"        "0"
 	}
 
 	"MannUpLabel"
@@ -436,11 +436,11 @@
 		"visible"		"1"
 		"fgcolor"		"tanlight"
 		"proportionalToParent"	"1"
-		"paintbackground"	"0"	
+		"paintbackground"	"0"
 
 		"pin_to_sibling"               "PanelListPanel"
-		"pin_corner_to_sibling"        "2"          
-		"pin_to_sibling_corner"        "0" 
+		"pin_corner_to_sibling"        "2"
+		"pin_to_sibling_corner"        "0"
 	}
 
 	"SquadSurplusLabel"
@@ -457,11 +457,11 @@
 		"visible"		"1"
 		"fgcolor"		"tanlight"
 		"proportionalToParent"	"1"
-		"paintbackground"	"0"	
+		"paintbackground"	"0"
 
 	 	"pin_to_sibling"               "PanelListPanel"
-		"pin_corner_to_sibling"        "6"          
-		"pin_to_sibling_corner"        "4" 
+		"pin_corner_to_sibling"        "6"
+		"pin_to_sibling_corner"        "4"
 	}
 
 	"TourOfDutyLabel"
@@ -478,10 +478,10 @@
 		"visible"		"1"
 		"fgcolor"		"tanlight"
 		"proportionalToParent"	"1"
-		"paintbackground"	"0"	
+		"paintbackground"	"0"
 
 		"pin_to_sibling"               "PanelListPanel"
-		"pin_corner_to_sibling"        "3"          
+		"pin_corner_to_sibling"        "3"
 		"pin_to_sibling_corner"        "1"
 	}
 
@@ -515,8 +515,8 @@
 		"proportionalToParent"	"1"
 
 		"pin_to_sibling"               "playermodelpanel"
-		"pin_corner_to_sibling"        "2"          
-		"pin_to_sibling_corner"        "0"     
+		"pin_corner_to_sibling"        "2"
+		"pin_to_sibling_corner"        "0"
 	}
 
 
@@ -524,10 +524,10 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"playermodelpanel"
-			
+
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"128"		
+		"zpos"			"128"
 		"wide"			"300"
 		"tall"			"280"
 		"autoResize"	"0"
@@ -535,16 +535,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-			
+
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"0"
 		"mouseinputenabled" "0"
-					
+
 		"model"
 		{
 			"force_pos"	"1"
-	
+
 			"angles_x" "0"
 			"angles_y" "172"
 			"angles_z" "0"
@@ -555,11 +555,11 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "0"
-			
+
 			"modelname"		""
 			"vcd"		"class_select.vcd"
 		}
-	
+
 		"customclassdata"
 		{
 			"undefined"

@@ -14,7 +14,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
-	
+
 	"Countdown"
 	{
 		"ControlName"	"CControlPointCountdown"
@@ -28,11 +28,11 @@
 	//	"tall_minmode"		"21"
 		"visible"	"1"
 		"enabled"	"1"
-	}	
+	}
 
 	"CapPlayerImage"
 	{
-		"ControlName"	"ImagePanel"		
+		"ControlName"	"ImagePanel"
 		"fieldName"	"CapPlayerImage"
 		"xpos"		"0"
 	//	"xpos_minmode"		"0"
@@ -50,7 +50,7 @@
 	}
 
 	"CapNumPlayers"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
 		"font"			"CapPlayerFont"
@@ -76,7 +76,7 @@
 
 	"OverlayImage"
 	{
-		"ControlName"	"ImagePanel"		
+		"ControlName"	"ImagePanel"
 		"fieldName"	"OverlayImage"
 		"xpos"		"19"
 	//	"xpos_minmode"		"12"
@@ -92,7 +92,7 @@
 		"image"		"capture_icon"
 		"scaleImage"	"1"
 	}
-	
+
 	"CPTimerLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -113,7 +113,7 @@
 		"font"			"ControlPointTimer"
 	//	"font_minmode"	"ControlPointTimerSmaller"
 	}
-				
+
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"
@@ -127,7 +127,7 @@
 	//	"tall_minmode"		"21"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_timer"	
-		"scaleImage"	"1"	
+		"image"			"../sprites/obj_icons/icon_obj_timer"
+		"scaleImage"	"1"
 	}
 }

@@ -19,22 +19,22 @@
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
-		
+
 		"item_xpos_offcenter_a"	"-270"
 		"item_xpos_offcenter_b"	"165"
 		"item_ypos"		"60"
 		"item_ydelta"	"60"
 		"item_mod_wide"	"40"
-		
+
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 
-		"button_xpos_offcenter"	"175"		
+		"button_xpos_offcenter"	"175"
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -47,19 +47,19 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"model_ypos"	"3"
 			"model_tall"	"49"
 			"text_ypos"		"46"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -82,7 +82,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"

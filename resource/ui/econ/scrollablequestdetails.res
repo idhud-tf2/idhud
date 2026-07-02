@@ -48,7 +48,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-	
+
 			"ItemPanel"
 			{
 				"ControlName"	"CItemModelPanel"
@@ -64,7 +64,7 @@
 				"PaintBackgroundType"	"2"
 				"paintborder"	"0"
 				"proportionaltoparent"	"1"
-			
+
 				"model_xpos"	"4"
 				"model_ypos"	"4"
 				"model_wide"	"100"
@@ -72,13 +72,13 @@
 				"text_ypos"		"100"
 				"text_center"	"1"
 				"name_only"		"1"
-			
+
 				"inset_eq_x"	"2"
 				"inset_eq_y"	"2"
 
 				"deferred_description"	"1"
 				"deferred_icon"			"1"
-			
+
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" "0"

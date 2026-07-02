@@ -29,13 +29,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -108,9 +108,9 @@
 		"tileImage"		"0"
 		"tileVertically" "0"
 		"drawcolor"		"112 176 74 255"
-	}				
+	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"tool_modelpanel"
 		"xpos"			"158"
@@ -181,7 +181,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"

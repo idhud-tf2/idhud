@@ -1,5 +1,5 @@
 "Resource/UI/Quests/LineItem_Item.res"
-{	
+{
 	"Item"
 	{
 		"fieldName"		"Item"
@@ -12,7 +12,7 @@
 	}
 
 	"ItemImage"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemImage"
 		"xpos"			"0"
@@ -26,7 +26,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"border"		"EconItemBorder"
-		
+
 		"model_xpos"	"0"
 		"model_ypos"	"0"
 		"model_wide"	"70"
@@ -40,7 +40,7 @@
 		"name_label_alignment"	"3" // west
 
 		"text_ypos"		"10"
-		
+
 		"itemmodelpanel"
 		{
 

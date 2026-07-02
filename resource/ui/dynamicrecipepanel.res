@@ -21,18 +21,18 @@
 		"outoffocus_bgcolor_override" "46 43 42 255"
 
 		"item_ypos"						"50"
-		"output_item_ypos"				"255"		
+		"output_item_ypos"				"255"
 		"item_crafting_offcenter_x"		"0"
 		"item_backpack_xdelta"			"2"
 		"item_backpack_ydelta"			"4"
 		"inventory_xpos"				"0"
 		"inventory_ypos"				"50"
 
-		"button_xpos_offcenter"			"175"		
+		"button_xpos_offcenter"			"175"
 		"button_ypos"					"85"
 		"button_ydelta"					"80"
 		"button_override_delete_xpos"	"0"
-		
+
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -44,33 +44,33 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"model_ypos"	"5"
 			"model_tall"	"35"
 			"text_center"	"1"
 			"name_only"		"1"
 			"text_forcesize" "3"
 			"noitem_use_fullpanel" "1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-			
+
 
 		}
-		
-	
-		
+
+
+
 		"filter_xoffset"	"-290"
 		"filter_ypos"		"30"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
-		
+
 		"recipefilterbuttons_kv"
 		{
 			"zpos"				"2"
@@ -89,7 +89,7 @@
 			"scaleImage"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}	
+		}
 	}
 
 	"recipecontainer"
@@ -123,7 +123,7 @@
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
 		}
-	
+
 		"InputLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -178,7 +178,7 @@
 			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
 		}
-		
+
 		"CraftButton"
 		{
 			"ControlName"	"CExButton"
@@ -202,8 +202,8 @@
 			"Command"		"craft"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}		
-		
+		}
+
 		"PrevInputPageButton"
 		{
 			"ControlName"	"CExButton"
@@ -267,7 +267,7 @@
 			"Command"		"nextinputpage"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}			
+		}
 	}
 
 	"inventorycontainer"
@@ -342,7 +342,7 @@
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
 		}
-			
+
 		"CancelButton"
 		{
 			"ControlName"	"CExButton"
@@ -366,8 +366,8 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}	
-		
+		}
+
 		"PrevPageButton"
 		{
 			"ControlName"	"CExButton"
@@ -431,7 +431,7 @@
 			"Command"		"nextpage"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}				
+		}
 	}
 
 	"mouseoveritempanel"
@@ -448,13 +448,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -478,7 +478,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mousedragitempanel"
-		
+
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -489,18 +489,18 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"model_ypos"	"5"
 		"model_tall"	"35"
 		"text_ypos"		"60"
 		"text_center"	"1"
 		"name_only"		"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
 	}
-	
+
 }
