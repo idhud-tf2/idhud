@@ -865,11 +865,6 @@
 		"icon_space"			"2"
 	}
 
-	HUDAutoAim
-	{
-
-	}
-
 	HudHDRDemo
 	{
 
