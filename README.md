@@ -24,6 +24,7 @@ Special thanks to CriticalFlaw and the contributors of the [tf2hud-fixes](https:
 
 # Features
 
+- **Linux support 🐧**
 - No gray bars when spectating (except the top bar in MvM to work around a bug)
 - Larger combat text numbers (damage, healing, metal spent etc.)
 - Last damage and healing done next to health cross
@@ -35,7 +36,7 @@ Special thanks to CriticalFlaw and the contributors of the [tf2hud-fixes](https:
 - No duplicate crosshair when coaching
 - Scoreboard improvements
 - More death notices on the screen at once
-- Linux support
+- Improved ConTracker fonts on Windows (no additional files needed; done via HUD file tweaks)
 
 # Notes
 
